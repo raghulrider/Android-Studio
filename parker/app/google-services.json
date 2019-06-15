@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "234897265351",
+    "firebase_url": "https://parker-4a4a4.firebaseio.com",
+    "project_id": "parker-4a4a4",
+    "storage_bucket": "parker-4a4a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234897265351:android:548a00099256b097",
+        "android_client_info": {
+          "package_name": "com.raghulrider.parker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234897265351-sglqarkb3c9di2u5mfe14krlat4foln5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.raghulrider.parker",
+            "certificate_hash": "df6d4f58f29dd375430ae5836fb9fc758ef263be"
+          }
+        },
+        {
+          "client_id": "234897265351-m4mlq14j6qu2vnl396l6hcbm8gbs1s6p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApmo2GAtDRCA9x1hupfChRk3f5brwAzVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234897265351-m4mlq14j6qu2vnl396l6hcbm8gbs1s6p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

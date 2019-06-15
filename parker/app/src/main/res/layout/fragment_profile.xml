@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:background="@color/white"
+    android:paddingRight="20dp">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:id="@+id/proimg"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/profile"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/proimg"
+            android:id="@+id/profiletext"
+            android:layout_width="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Profile"
+            android:textSize="26sp"/>
+
+        <ListView
+            android:layout_marginTop="12dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/profiletext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:id="@+id/prolistview">
+        </ListView>
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addbutton"
+            app:srcCompat="@drawable/addbutton"
+            android:layout_marginBottom="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            />
+    </RelativeLayout>
+</RelativeLayout>
