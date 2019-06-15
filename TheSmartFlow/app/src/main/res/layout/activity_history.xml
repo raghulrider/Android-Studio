@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HistoryActivity">
+    <TextView
+        android:fontFamily="sans-serif-black"
+        android:text="Insulin Intake History"
+        android:layout_marginTop="20dp"
+        android:id="@+id/texthistory"
+        android:textColor="@color/colorPrimary"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/databtn"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="Insulin History"/>
+    <TextView
+        android:fontFamily="sans-serif-black"
+        android:text="Use this option if History Doesn't Update for a long time"
+        android:layout_below="@+id/updatebtn"
+        android:id="@+id/updatetext"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"/>
+    <Button
+
+        android:id="@+id/updatebtn"
+        android:textColor="@color/warning"
+        android:layout_marginTop="600dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Update"/>
+
+
+</RelativeLayout>

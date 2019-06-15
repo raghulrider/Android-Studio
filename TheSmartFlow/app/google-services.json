@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "464434570612",
+    "firebase_url": "https://thesmartflow-6b7c4.firebaseio.com",
+    "project_id": "thesmartflow-6b7c4",
+    "storage_bucket": "thesmartflow-6b7c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464434570612:android:48b7807b9bfb5215",
+        "android_client_info": {
+          "package_name": "com.raghulrider.thesmartflow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464434570612-f2roll6od235cds0277gvm0slq732euq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.raghulrider.thesmartflow",
+            "certificate_hash": "df6d4f58f29dd375430ae5836fb9fc758ef263be"
+          }
+        },
+        {
+          "client_id": "464434570612-2p8n5sdkisa47hajn86nssrgmk4uutao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA_292wtLBFG61FK2tqh09mdoAVc1Oxks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "464434570612-2p8n5sdkisa47hajn86nssrgmk4uutao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

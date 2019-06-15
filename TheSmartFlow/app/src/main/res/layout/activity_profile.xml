@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+    <ImageView
+        android:layout_marginTop="20sp"
+        android:id="@+id/proimg"
+        android:layout_centerHorizontal="true"
+        android:layout_width="176dp"
+        android:layout_height="176dp"
+        android:src="@drawable/navigation_profile"/>
+    <TextView
+        android:layout_marginTop="6dp"
+        android:layout_below="@+id/proimg"
+        android:id="@+id/profiletext"
+        android:layout_width="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Profile"
+        android:textSize="25sp" />
+
+    <ListView
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/profiletext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:id="@+id/prolistview">
+    </ListView>
+</RelativeLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/addbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/ic_addbutton" />
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">The Smart Flow</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">The Smart Flow</string>
+    <string name="nav_header_subtitle">raghulprasadv@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Logout</string>
+
+    <string name="menu_profile">Profile</string>
+    <string name="menu_history">History</string>
+    <string name="menu_pump">Insulin Pump</string>
+    <string name="menu_contact">Contact</string>
+    <string name="menu_developer">Developer</string>
+    <string name="menu_about">About</string>
+    <string name="about_activity">Welcome to Smart Flow - Smart Flow is an Insulin Pump, an attempt ot build an insulin pump at low cost making it affordable for common people.I am Raghul Prasad Venkatachalam 3rd Year student studying Electronics and Communication in Kumaraguru College of Technology.
+   We are a group of 4 students currently training as Graduate Engineer @Forge under a program named ProtoSem situated @Coimbatore
+   Innovation/Startup fellowship program is a 20-week, full-semester course called ProtoSem during which students are nurtured and guided
+   to develop core technical concepts and key engineering skills and are transformed into "Innovation Engineers".
+   We work as a team with students from different engineering/technical/science streams, towards designing, developing
+   and testing an innovative tech-enabled solution to solve a real-world problem
+   (the Minimum Usable Prototype to test the technical feasibility and the commercial viability of the product innovation) sponsored by the industry, government, or social sector etc.
+   We solve real-world challenges using the tools enabled by hardware, software and computing technologies,
+   and evolve as Graduate Innovation Engineers and fully rounded professionals with more balanced skills in the Innovation, Technology, and Engineering talent dimensions.
+   Graduate Innovation Engineers are creative problem-solvers, capable of building deployable/usable prototypes, selecting and applying technology to create cost-effective solutions,
+   and are aware of the tools and techniques of managing the process of innovation to mitigate and reduce risks.
+   They innovate and design solutions by setting and achieving metrics in
+   customer development and discovery, value-proposition validation, market definition and sizing, customer acquisition, revenue model and competition analysis.</string>
+</resources>
