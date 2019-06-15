@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollable"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Basic Calulator"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/name"
+        android:layout_below="@+id/title"
+        android:hint="Enter your Name"
+        android:inputType="textPersonName
+"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/firstinput"
+        android:layout_below="@+id/name"
+        android:hint="Enter first number"
+        android:inputType="numberDecimal"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/secondinput"
+        android:inputType="numberDecimal"
+        android:layout_below="@+id/firstinput"
+        android:hint="Enter first number"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/secondinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+        <RadioButton
+            android:id="@+id/addition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Additon (+)"/>
+        <RadioButton
+            android:id="@+id/subtraction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subtraction (-)"/>
+        <RadioButton
+            android:id="@+id/multiplication"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Multiplication (x)"/>
+        <RadioButton
+            android:id="@+id/division"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Division (/)"/>
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/displaytext"
+        android:textSize="26sp"
+        android:layout_below="@+id/radioGroup"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/answertext"
+        android:textSize="30sp"
+        android:layout_below="@+id/displaytext"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+</RelativeLayout>
+</ScrollView>

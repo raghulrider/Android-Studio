@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollable"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeatherActivity" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".WeatherActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Weather"
+        android:textSize="30sp" />
+    <ImageView
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView"
+        android:src="@drawable/weatherlogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    <AutoCompleteTextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/cities"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/imageView"
+        android:layout_width="250dp"
+        android:hint="Enter Country Name"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/fetch"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/cities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:text="FETCH"/>
+    <TextView
+        android:id="@+id/temp"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/fetch"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:hint="°C"/>
+    <TextView
+        android:id="@+id/min"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/temp"
+        android:layout_marginLeft="26dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/colorAccent"
+        android:text="Min °C"/>
+    <TextView
+        android:id="@+id/max"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/temp"
+        android:layout_marginRight="26dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/colorAccent"
+        android:text="Max °C"/>
+    <TextView
+        android:id="@+id/minvalue"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/min"
+        android:layout_marginLeft="26dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:hint="°C"/>
+    <TextView
+        android:id="@+id/maxvalue"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/max"
+        android:layout_marginRight="26dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:hint="°C"/>
+    <TextView
+        android:id="@+id/weatherdesctitle"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/maxvalue"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/colorAccent"
+        android:text="Weather Description"/>
+
+    <TextView
+        android:id="@+id/weatherdesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weatherdesctitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Description goes here"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+
+
+</RelativeLayout>
+</ScrollView>

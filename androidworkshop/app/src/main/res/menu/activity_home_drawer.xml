@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_calculator"
+            android:icon="@drawable/calculator"
+            android:title="@string/menu_calculator" />
+
+    </group>
+
+    <item android:title="Weather">
+        <menu>
+            <item
+                android:id="@+id/nav_weather"
+                android:icon="@drawable/weather"
+                android:title="@string/menu_weather" />
+            <item
+                android:id="@+id/nav_weatherlogger"
+                android:icon="@drawable/weatherlogger"
+                android:title="@string/menu_weatherlogger" />
+        </menu>
+    </item>
+    <item android:title="Speech and Text">
+        <menu>
+            <item
+                android:id="@+id/nav_speech_and_text"
+                android:icon="@drawable/stt"
+                android:title="@string/menu_speech_andText" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="6dp"
+    card_view:cardElevation="3dp"
+    card_view:cardUseCompatPadding="true">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/city"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="City:"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content" />
+        <TextView
+           android:layout_toRightOf="@id/city"
+            android:id="@+id/cityname"
+            android:textColor="@color/orange"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_below="@id/city"
+            android:id="@+id/tempe"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="Temperature:"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/temper"
+            android:layout_below="@+id/city"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tempe"
+            android:textColor="@color/orange"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_above="@+id/tempe"
+            android:layout_below="@+id/relLyaout"
+            android:layout_marginLeft="60dp"
+            android:layout_toRightOf="@+id/cityname"
+            android:id="@+id/descrip"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="Description"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_below="@+id/descrip"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/temper"
+            android:id="@+id/description"
+            android:textColor="@color/orange"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
